@@ -28,7 +28,7 @@ const EditPost = () => {
       const textTags = post.tagsArray.join(', ');
       setTags(textTags)
     }
-  }, post)
+  }, [post])
 
   const handleSubmit = (e) => {
     e.preventDefault();
