@@ -21,6 +21,7 @@
 
 .links_list li a {
     padding: 0.4em 0.6em;
+    border-radius:0.5em;
 }
 
 .active {

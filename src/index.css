@@ -74,7 +74,7 @@ input, textarea {
 
 .btn.btn-dark {
     background-color: #000;
-    border-radius: 0;
+    border-radius: 0.5em;
 }
 
 .btn.btn-outline {
@@ -83,6 +83,7 @@ input, textarea {
     color: #000;
     border:  1px solid #000;
     padding: 7px 30px;
+    border-radius: 0.2em;
 }
 
 .btn.btn-outline:hover {
