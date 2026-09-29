@@ -13,8 +13,8 @@ import styles from './Search.module.css';
 
 const Search = () => {
     const query = useQuery();
-    const search = query.get('q')
-    const {documents: posts} = useFetchDocuments('posts', search)
+    const search = query.get('q');
+    const {documents: posts} = useFetchDocuments('posts', search);
 
   return (
     <div className={styles.search_conteiner}>
